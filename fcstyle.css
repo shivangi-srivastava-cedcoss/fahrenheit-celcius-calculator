@@ -1,0 +1,62 @@
+body
+        {
+            background-image: url('Temperature-Conversion-Table.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+        }
+        fieldset
+        {
+            width: 270px;
+            border: 2px solid white;
+            padding: 40px 30px;
+            transform: translate(15%,34%);
+        }
+        legend
+        {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        div
+        {
+            margin-top: 5%;
+        }
+        input,select
+        {
+            height: 5vh;
+            border: 1px;
+        }
+        select
+        {
+            height:5vh;
+            
+        }
+        select:disabled, input:disabled
+        {
+            opacity: 1;
+            background-color: white;
+            color: #4e4e4e;
+        }
+        input[type=button]
+        {
+            height: 6vh;
+            width: 17vh;
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+        }
+        #errmsg
+        {
+            color: #cf4646;
+            font-size: 18px;
+        }
+        @media screen and (max-width:556px)
+        {
+            fieldset
+            {
+                transform: translate(3%,15%);
+            }
+        }
